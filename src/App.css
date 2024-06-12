@@ -1,0 +1,113 @@
+.boxMenu{
+    width: 100%;
+    padding: 40px;
+    border-radius: 7px;
+    background-color: rgb(237, 240, 243);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.listaMenu{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+}
+.listaMenu li:hover{
+    color: #1d1e2546;
+    cursor: pointer;
+}
+.foto{
+    object-fit: contain;
+}
+.titulo{
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.parrafo{
+    margin-top: 20px;
+    color: rgb(177, 177, 177);
+    text-align: center;
+    padding: 0 20px;
+}
+.boton{
+    background-color: #f25f3a;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 10px 40px;
+    width: fit-content;
+    align-self: center;
+}
+.boton:hover{
+    background-color: #f25f3a67;
+}
+.botonNumber{
+    background-color: #f25f3a;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 5px 20px;
+    width: fit-content;
+    align-self: center;
+}
+.subtitulo{
+    font-size: 14px;
+    font-weight: 800;
+}
+.banner{
+    background-color: #f25f3a;
+    padding: 50px;
+}
+.botonBanner{
+    background-color: #fff;
+    border: none;
+    border-radius: 40px;
+    color: #f25f3a;
+    padding: 10px 40px;
+    width: fit-content;
+    align-self: center;
+}
+.botonBanner:hover{
+    color: #f25f3a67;
+}
+.tituloBanner{
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    color: white;
+}
+.footer{
+    background-color: hsl(233, 12%, 13%);
+}
+input{
+    border-radius: 40px;
+    border: none;
+    height: 40px;
+    align-self: center;
+    padding: 5px;
+}
+.listaFooter{
+    list-style: none;
+    color: white;
+    margin-top: 20px;
+    padding: 0;
+}
+.listaFooter li:hover{
+    color: #f25f3a;
+    cursor: pointer;
+}
+.fotitoNav{
+    height: 30px;
+    object-fit: contain;
+}
+.contenedorIMG img:hover{
+    cursor: pointer;
+    color: #f25f3a !important;
+}
